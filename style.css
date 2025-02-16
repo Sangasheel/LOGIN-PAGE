@@ -1,0 +1,135 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-image: url(purple.jpg);
+    background-size: cover;
+}
+.container{
+    height: 459px;
+    width: 439px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border:2px solid transparent;
+    background-color: rgba(86, 120, 242, 0.811)
+    background-size: contain;
+
+}
+.loginbox{
+    text-align: center;
+    font-size:30px;
+    position: relative;
+    bottom: 33px;
+    right: 9px;
+    color:white;
+}
+.username{
+    height:50px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#usernamebox{
+ height:30px;
+ width:300px;
+ border-radius: 15px;
+}
+.password{
+    height:50px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#passwordbox{
+    height:30px;
+    width:300px;
+    border-radius: 15px;
+
+   }
+   .rememberme{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+   }
+   .loginbox{
+    height:50px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.account{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.loginbox2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+     width: 300px;
+     border:2px solid white;
+     margin-left: 61px;
+     margin-top: 36px;
+}
+#login2{
+   color:white;
+}
+#forgot{
+    position:relative;
+    left:38px;
+    color: aliceblue;
+}
+#remember{
+    position:relative;
+    right: 50px;
+
+}
+#text{
+    position:relative;
+    right: 50px;
+}
+#dont{
+    color:aliceblue;
+    font-weight: bold;
+}
+#r{
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+#icon1{
+    color:rgba(0, 0, 0, 0.811);
+    position: relative;
+    right:33px;
+    
+}
+#icon2{
+    color:rgba(0, 0, 0, 0.811);
+    position: relative;
+    right:30px;
+}
+.loginbox2:hover{
+    background-color: rgb(94, 190, 53);
+}
+.container:hover{
+    border:1px solid aliceblue;
+}
+
+
+   
+
+
+
+
+
